@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "mafalda",
+    "genre": "drama",
+    "estudioId": 1
+  },
+  {
+    "id": 2,
+    "title": "alf",
+    "genre": "drama",
+    "estudioId": 2
+  }
+]
