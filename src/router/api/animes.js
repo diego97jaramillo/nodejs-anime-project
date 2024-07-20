@@ -11,14 +11,14 @@ const readDB = () => {
 }
 
 const readEstudios = () => {
-    const estudios = fs.readFileSync(RUTAESTUDIOS);
+    const estudios = fs.readFileSync(RUTAESTUDIO);
     const estudioPar = JSON.parse(estudios);
     return estudioPar
 }
 
 
 
-const createAnimes = (req, res) => {
+const createAnimes = ( req, res) => {
     let animes = readDB();
     let estudio = readEstudios();
     console.log(estudio, typeof req.body.estudioId);
